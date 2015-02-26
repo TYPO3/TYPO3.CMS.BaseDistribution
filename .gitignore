@@ -3,6 +3,7 @@
 #############################
 .DS_Store
 .idea
+bin
 index.php
 nbproject
 vendor
