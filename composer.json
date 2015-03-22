@@ -10,7 +10,7 @@
 		"bin-dir": "bin"
 	},
 	"require": {
-		"typo3/cms": "6.2.11"
+		"typo3/cms": "dev-master"
 	},
 	"require-dev": {
 		"mikey179/vfsStream": "1.3.*@dev",
