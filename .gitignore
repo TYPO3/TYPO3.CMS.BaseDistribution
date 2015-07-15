@@ -5,6 +5,8 @@
 .idea
 index.php
 nbproject
-Packages
+vendor
 typo3
 typo3_src
+web/index.php
+web/typo3
