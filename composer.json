@@ -17,5 +17,11 @@
 		"phpunit/phpunit": "~4.4.0",
 		"twbs/bootstrap": "3.3.*",
 		"fortawesome/font-awesome": "4.2.*"
+	},
+	"extra": {
+		"typo3/cms": {
+			"cms-package-dir": "{$vendor-dir}/typo3/cms",
+			"web-dir": "web"
+		}
 	}
 }
