@@ -6,7 +6,7 @@
 	"description" : "TYPO3 CMS Base Distribution",
 	"license": "GPL-2.0+",
 	"require": {
-		"typo3/cms": "dev-master"
+		"typo3/cms": "^7.6"
 	},
 	"extra": {
 		"typo3/cms": {
