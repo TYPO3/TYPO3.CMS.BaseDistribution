@@ -8,41 +8,6 @@
 	"require": {
 		"typo3/cms": "dev-master"
 	},
-	"require-dev": {
-		"mikey179/vfsStream": "1.4.*@dev",
-		"phpunit/phpunit": "~4.7.0"
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"TYPO3\\CMS\\Backend\\Tests\\": "web/typo3/sysext/backend/Tests/",
-			"TYPO3\\CMS\\Belog\\Tests\\": "web/typo3/sysext/belog/Tests/",
-			"TYPO3\\CMS\\Beuser\\Tests\\": "web/typo3/sysext/beuser/Tests/",
-			"TYPO3\\CMS\\Core\\Tests\\": "web/typo3/sysext/core/Tests/",
-			"TYPO3\\CMS\\Dbal\\Tests\\": "web/typo3/sysext/dbal/Tests/",
-			"TYPO3\\CMS\\Documentation\\Tests\\": "web/typo3/sysext/documentation/Tests/",
-			"TYPO3\\CMS\\Extbase\\Tests\\": "web/typo3/sysext/extbase/Tests/",
-			"TYPO3\\CMS\\Extensionmanager\\Tests\\": "web/typo3/sysext/extensionmanager/Tests/",
-			"TYPO3\\CMS\\Felogin\\Tests\\": "web/typo3/sysext/felogin/Tests/",
-			"TYPO3\\CMS\\Fluid\\Tests\\": "web/typo3/sysext/fluid/Tests/",
-			"TYPO3\\CMS\\Form\\Tests\\": "web/typo3/sysext/form/Tests/",
-			"TYPO3\\CMS\\Frontend\\Tests\\": "web/typo3/sysext/frontend/Tests/",
-			"TYPO3\\CMS\\Impexp\\Tests\\": "web/typo3/sysext/impexp/Tests/",
-			"TYPO3\\CMS\\IndexedSearch\\Tests\\": "web/typo3/sysext/indexed_search/Tests/",
-			"TYPO3\\CMS\\Install\\Tests\\": "web/typo3/sysext/install/Tests/",
-			"TYPO3\\CMS\\Lang\\Tests\\": "web/typo3/sysext/lang/Tests/",
-			"TYPO3\\CMS\\Lowlevel\\Tests\\": "web/typo3/sysext/lowlevel/Tests/",
-			"TYPO3\\CMS\\Mediace\\": "web/typo3/sysext/mediace/Classes/",
-			"TYPO3\\CMS\\Mediace\\Tests\\": "web/typo3/sysext/mediace/Tests/",
-			"TYPO3\\CMS\\Recordlist\\Tests\\": "web/typo3/sysext/recordlist/Tests/",
-			"TYPO3\\CMS\\Reports\\Tests\\": "web/typo3/sysext/reports/Tests/",
-			"TYPO3\\CMS\\Rsaauth\\Tests\\": "web/typo3/sysext/rsaauth/Tests/",
-			"TYPO3\\CMS\\Saltedpasswords\\Tests\\": "web/typo3/sysext/saltedpasswords/Tests/",
-			"TYPO3\\CMS\\Scheduler\\Tests\\": "web/typo3/sysext/scheduler/Tests/",
-			"TYPO3\\CMS\\Sv\\Tests\\": "web/typo3/sysext/sv/Tests/",
-			"TYPO3\\CMS\\Workspaces\\Tests\\": "web/typo3/sysext/workspaces/Tests/"
-		},
-		"classmap": ["web/typo3/sysext/extbase/Tests/Unit/Object/Container/Fixtures/"]
-	},
 	"extra": {
 		"typo3/cms": {
 			"cms-package-dir": "{$vendor-dir}/typo3/cms",
