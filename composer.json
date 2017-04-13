@@ -9,6 +9,17 @@
 		"typo3/cms": "dev-master",
 		"helhum/typo3-console": "^4.4"
 	},
+	"scripts":{
+		"typo3-cms-scripts": [
+			"typo3cms install:fixfolderstructure"
+		],
+		"post-install-cmd": [
+			"@typo3-cms-scripts"
+		],
+		"post-update-cmd": [
+			"@typo3-cms-scripts"
+		]
+	},
 	"extra": {
 		"typo3/cms": {
 			"cms-package-dir": "{$vendor-dir}/typo3/cms",
