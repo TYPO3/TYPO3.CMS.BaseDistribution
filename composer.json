@@ -4,7 +4,7 @@
 	],
 	"name": "typo3/cms-base-distribution",
 	"description" : "TYPO3 CMS Base Distribution",
-	"license": "GPL-2.0+",
+	"license": "GPL-2.0-or-later",
 	"config": {
 		"vendor-dir": "Packages/Libraries",
 		"bin-dir": "bin"
