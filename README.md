@@ -47,7 +47,7 @@ While it's advised to use a more sophisticated web server such as
 Apache 2 or nginx, you can instantly run the project by using PHPs` built-in
 [web server](http://php.net/manual/en/features.commandline.webserver.php).
 
-* `TYPO3_CONTEXT=Development php -S localhost:8000 -t web`
+* `TYPO3_CONTEXT=Development php -S localhost:8000 -t public`
 * open your browser at "http://localhost:8000"
 
 Please be aware that the built-in web server is single threaded. Which is ultimately
