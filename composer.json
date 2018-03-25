@@ -6,17 +6,16 @@
 	"description" : "TYPO3 CMS Base Distribution",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"typo3/cms-backend": "9.2.*@dev",
-		"typo3/cms-core": "9.2.*@dev",
-		"typo3/cms-documentation": "9.2.*@dev",
-		"typo3/cms-extbase": "9.2.*@dev",
-		"typo3/cms-extensionmanager": "9.2.*@dev",
-		"typo3/cms-filelist": "9.2.*@dev",
-		"typo3/cms-fluid": "9.2.*@dev",
-		"typo3/cms-frontend": "9.2.*@dev",
-		"typo3/cms-install": "9.2.*@dev",
-		"typo3/cms-lang": "9.2.*@dev",
-		"typo3/cms-recordlist": "9.2.*@dev",
-		"typo3/cms-saltedpasswords": "9.2.*@dev"
+		"typo3/minimal": "^9.1",
+		"helhum/typo3-console": "^5.2"
+	},
+	"scripts":{
+		"typo3-cms-scripts": [
+			"typo3cms install:fixfolderstructure",
+			"typo3cms install:generatepackagestates"
+		],
+		"post-autoload-dump": [
+			"@typo3-cms-scripts"
+		]
 	}
 }
