@@ -17,6 +17,21 @@
 		"typo3/cms-install": "9.2.*@dev",
 		"typo3/cms-lang": "9.2.*@dev",
 		"typo3/cms-recordlist": "9.2.*@dev",
-		"typo3/cms-saltedpasswords": "9.2.*@dev"
+		"typo3/cms-saltedpasswords": "9.2.*@dev",
+
+		"typo3/cms-about": "9.2.*@dev",
+		"typo3/cms-belog": "9.2.*@dev",
+		"typo3/cms-beuser": "9.2.*@dev",
+		"typo3/cms-felogin": "9.2.*@dev",
+		"typo3/cms-fluid-styled-content": "9.2.*@dev",
+		"typo3/cms-form": "9.2.*@dev",
+		"typo3/cms-impexp": "9.2.*@dev",
+		"typo3/cms-info": "9.2.*@dev",
+		"typo3/cms-rte-ckeditor": "9.2.*@dev",
+		"typo3/cms-setup": "9.2.*@dev",
+		"typo3/cms-sys-note": "9.2.*@dev",
+		"typo3/cms-t3editor": "9.2.*@dev",
+		"typo3/cms-tstemplate": "9.2.*@dev",
+		"typo3/cms-viewpage": "9.2.*@dev"
 	}
 }
