@@ -4,12 +4,12 @@ Get going quickly with TYPO3 CMS.
 
 ## Prerequisites
 
-* PHP 7
-* composer (https://getcomposer.org/download/)
+* PHP 7.2
+* [Composer](https://getcomposer.org/download/)
 
 ## Quickstart
 
-* `composer create-project typo3/cms-base-distribution project-name dev-master`
+* `composer create-project typo3/cms-base-distribution project-name ^9`
 * `cd project-name`
 
 **Setup:**
@@ -43,7 +43,7 @@ php vendor/bin/typo3cms install:setup \
 
 **Development server:**
 
-While it's advised to use a more sophisticated web server such as 
+While it's advised to use a more sophisticated web server such as
 Apache 2 or nginx, you can instantly run the project by using PHPs` built-in
 [web server](http://php.net/manual/en/features.commandline.webserver.php).
 
@@ -55,4 +55,4 @@ a performance killer and may result in deadlocks if you execute too many request
 
 # License
 
-GPL-2.0+
+GPL-2.0 or later
