@@ -6,7 +6,7 @@
 	"description" : "TYPO3 CMS Base Distribution",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"helhum/typo3-console": "^5.2",
+		"helhum/typo3-console": "^4.9.3 || ^5.2",
 		"typo3/cms-about": "^8.7.10",
 		"typo3/cms-belog": "^8.7.10",
 		"typo3/cms-beuser": "^8.7.10",
@@ -40,6 +40,10 @@
 	"extra": {
 		"typo3/cms": {
 			"web-dir": "public"
+		},
+		"helhum/typo3-console": {
+			"comment": "This option is not needed ay more for helhum/typo3-console 5.x",
+			"install-extension-dummy": false
 		}
 	}
 }
