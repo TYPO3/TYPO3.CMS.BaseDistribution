@@ -3,6 +3,7 @@
 nbproject
 /vendor
 /public/*
+!/public/.htaccess
 !/public/typo3conf
 /public/typo3conf/*
 !/public/typo3conf/LocalConfiguration.php
