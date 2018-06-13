@@ -1,6 +1,7 @@
 .DS_Store
 .idea
 nbproject
+/var
 /vendor
 /public/*
 !/public/.htaccess
