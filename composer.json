@@ -20,7 +20,6 @@
 		"typo3/cms-frontend": "9.4.*@dev",
 		"typo3/cms-install": "9.4.*@dev",
 		"typo3/cms-recordlist": "9.4.*@dev",
-		"typo3/cms-saltedpasswords": "9.4.*@dev",
 
 		"typo3/cms-about": "9.4.*@dev",
 		"typo3/cms-belog": "9.4.*@dev",
