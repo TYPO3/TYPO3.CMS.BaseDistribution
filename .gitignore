@@ -1,7 +1,8 @@
 .DS_Store
 .idea
 nbproject
-/var
+/var/*
+!/var/labels
 /vendor
 /public/*
 !/public/typo3conf
