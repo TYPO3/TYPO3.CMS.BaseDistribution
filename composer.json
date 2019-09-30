@@ -40,6 +40,13 @@
 		"typo3/cms-wizard-crpages": "^8.7.10",
 		"typo3/cms-wizard-sortpages": "^8.7.10"
 	},
+	"require-dev": {
+		"typo3-console/composer-typo3-auto-install": "dev-master",
+		"nimut/testing-framework": "^4.1",
+		"phpunit/phpunit": "*",
+		"ichhabrecht/filefill": "^3.0",
+		"christianessl/impersonate": "^1.0"
+	},
 	"scripts":{
 		"addtrustedhostpattern": "@php vendor/bin/typo3cms configuration:set SYS/trustedHostsPattern '.*'",
 		"addfilefillconfig": "@php vendor/bin/typo3cms configuration:set EXTCONF/filefill/storages/1 '[{\"identifier\":\"sys_domain\"},{\"identifier\":\"placeholder\"}]' --json",
