@@ -1,11 +1,23 @@
 {
 	"repositories": [
-		{ "type": "composer", "url": "https://composer.typo3.org/" }
+		{ "type": "path", "url": "packages/*" },
+		{ "type": "composer", "url": "https://composer.typo3.org/" },
+		{ "type": "composer", "url": "https://packages.sudhaus7.de/" }
 	],
-	"name": "typo3/cms-base-distribution",
-	"description" : "TYPO3 CMS Base Distribution",
+	"name": "sudhaus7/default-sitepackage",
+	"description" : "Sudhaus7 TYPO3 CMS Base Sitepackage",
 	"license": "GPL-2.0-or-later",
+	"config": {
+		"platform": {
+			"php": "7.2"
+		}
+	},
 	"require": {
+		"ext-json": "*",
+		"ext-pdo": "*",
+		"php": ">=7.2.0",
+		"typo3-console/composer-auto-commands": "^0.1",
+		"helhum/typo3-secure-web": "^0.2.5",
 		"helhum/typo3-console": "^4.9.3 || ^5.2",
 		"typo3/cms-about": "^8.7.10",
 		"typo3/cms-belog": "^8.7.10",
@@ -29,9 +41,19 @@
 		"typo3/cms-wizard-sortpages": "^8.7.10"
 	},
 	"scripts":{
+		"addtrustedhostpattern": "@php vendor/bin/typo3cms configuration:set SYS/trustedHostsPattern '.*'",
+		"addfilefillconfig": "@php vendor/bin/typo3cms configuration:set EXTCONF/filefill/storages/1 '[{\"identifier\":\"sys_domain\"},{\"identifier\":\"placeholder\"}]' --json",
+		"killcache": "@php vendor/bin/typo3cms cache:flush",
+		"generatepackagestates": "@php vendor/bin/typo3cms install:generatepackagestates",
+		"extensionsetupifpossible": "@php vendor/bin/typo3cms install:extensionsetupifpossible",
 		"typo3-cms-scripts": [
-			"typo3cms install:fixfolderstructure",
-			"typo3cms install:generatepackagestates"
+			"@php vendor/bin/typo3cms typo3cms install:fixfolderstructure",
+		],
+		"typo3install": [
+			"@generatepackagestates",
+			"@extensionsetupifpossible",
+			"@addtrustedhostpattern",
+			"@addfilefillconfig"
 		],
 		"post-autoload-dump": [
 			"@typo3-cms-scripts"
