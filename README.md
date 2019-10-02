@@ -29,7 +29,7 @@ with your own environment configuration.
 
 ```
 php vendor/bin/typo3cms install:setup \
-    --non-interactive \
+    --no-interaction \
     --database-user-name=typo3 \
     --database-user-password=typo3 \
     --database-host-name=127.0.0.1 \
