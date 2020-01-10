@@ -51,7 +51,7 @@ Apache 2 or nginx, you can instantly run the project by using PHPs` built-in
 * open your browser at "http://localhost:8000"
 
 Please be aware that the built-in web server is single threaded. Which is ultimately
-a performance killer and may result in deadlocks if you execute too many requests at once.
+a performance killer if you execute too many requests at once.
 
 # License
 
