@@ -24,6 +24,7 @@
 		"typo3/cms-about": "dev-master",
 		"typo3/cms-belog": "dev-master",
 		"typo3/cms-beuser": "dev-master",
+		"typo3/cms-dashboard": "dev-master",
 		"typo3/cms-felogin": "dev-master",
 		"typo3/cms-fluid-styled-content": "dev-master",
 		"typo3/cms-form": "dev-master",
