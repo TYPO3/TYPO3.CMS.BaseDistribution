@@ -1,38 +1,35 @@
 {
-	"repositories": [
-		{ "type": "composer", "url": "https://composer.typo3.org/" }
-	],
 	"name": "typo3/cms-base-distribution",
 	"description" : "TYPO3 CMS Base Distribution",
 	"license": "GPL-2.0-or-later",
 	"config": {
 		"platform": {
 			"php": "7.2"
-		}
+		},
+		"sort-packages": true
 	},
 	"require": {
-		"typo3/cms-backend": "dev-master",
-		"typo3/cms-core": "dev-master",
-		"typo3/cms-extbase": "dev-master",
-		"typo3/cms-extensionmanager": "dev-master",
-		"typo3/cms-filelist": "dev-master",
-		"typo3/cms-fluid": "dev-master",
-		"typo3/cms-frontend": "dev-master",
-		"typo3/cms-install": "dev-master",
-		"typo3/cms-recordlist": "dev-master",
-
 		"typo3/cms-about": "dev-master",
+		"typo3/cms-backend": "dev-master",
 		"typo3/cms-belog": "dev-master",
 		"typo3/cms-beuser": "dev-master",
+		"typo3/cms-core": "dev-master",
 		"typo3/cms-dashboard": "dev-master",
+		"typo3/cms-extbase": "dev-master",
+		"typo3/cms-extensionmanager": "dev-master",
 		"typo3/cms-felogin": "dev-master",
+		"typo3/cms-filelist": "dev-master",
+		"typo3/cms-fluid": "dev-master",
 		"typo3/cms-fluid-styled-content": "dev-master",
 		"typo3/cms-form": "dev-master",
+		"typo3/cms-frontend": "dev-master",
 		"typo3/cms-impexp": "dev-master",
 		"typo3/cms-info": "dev-master",
+		"typo3/cms-install": "dev-master",
+		"typo3/cms-recordlist": "dev-master",
 		"typo3/cms-rte-ckeditor": "dev-master",
-		"typo3/cms-setup": "dev-master",
 		"typo3/cms-seo": "dev-master",
+		"typo3/cms-setup": "dev-master",
 		"typo3/cms-sys-note": "dev-master",
 		"typo3/cms-t3editor": "dev-master",
 		"typo3/cms-tstemplate": "dev-master",
