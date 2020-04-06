@@ -9,7 +9,7 @@ Get going quickly with TYPO3 CMS.
 
 ## Quickstart
 
-* `composer create-project typo3/cms-base-distribution project-name ^9`
+* `composer create-project typo3/cms-base-distribution project-name ^10`
 * `cd project-name`
 
 **Setup:**
@@ -24,12 +24,12 @@ php vendor/bin/typo3cms install:setup
 **Setup unattended (optional):**
 
 If you're a more advanced user, you might want to leverage the unattended installation.
-To do this, you need to execute the following command and substite the arguments
+To do this, you need to execute the following command and substitute the arguments
 with your own environment configuration.
 
 ```
 php vendor/bin/typo3cms install:setup \
-    --non-interactive \
+    --no-interaction \
     --database-user-name=typo3 \
     --database-user-password=typo3 \
     --database-host-name=127.0.0.1 \
