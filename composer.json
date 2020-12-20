@@ -4,12 +4,11 @@
 	"license": "GPL-2.0-or-later",
 	"config": {
 		"platform": {
-			"php": "7.2"
+			"php": "7.4.1"
 		},
 		"sort-packages": true
 	},
 	"require": {
-		"typo3/cms-about": "dev-master",
 		"typo3/cms-backend": "dev-master",
 		"typo3/cms-belog": "dev-master",
 		"typo3/cms-beuser": "dev-master",
