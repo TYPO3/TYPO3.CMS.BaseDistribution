@@ -9,29 +9,39 @@
 		"sort-packages": true
 	},
 	"require": {
-		"typo3/cms-backend": "^11.1.0@dev",
-		"typo3/cms-belog": "^11.1.0@dev",
-		"typo3/cms-beuser": "^11.1.0@dev",
-		"typo3/cms-core": "^11.1.0@dev",
-		"typo3/cms-dashboard": "^11.1.0@dev",
-		"typo3/cms-extbase": "^11.1.0@dev",
-		"typo3/cms-extensionmanager": "^11.1.0@dev",
-		"typo3/cms-felogin": "^11.1.0@dev",
-		"typo3/cms-filelist": "^11.1.0@dev",
-		"typo3/cms-fluid": "^11.1.0@dev",
-		"typo3/cms-fluid-styled-content": "^11.1.0@dev",
-		"typo3/cms-form": "^11.1.0@dev",
-		"typo3/cms-frontend": "^11.1.0@dev",
-		"typo3/cms-impexp": "^11.1.0@dev",
-		"typo3/cms-info": "^11.1.0@dev",
-		"typo3/cms-install": "^11.1.0@dev",
-		"typo3/cms-recordlist": "^11.1.0@dev",
-		"typo3/cms-rte-ckeditor": "^11.1.0@dev",
-		"typo3/cms-seo": "^11.1.0@dev",
-		"typo3/cms-setup": "^11.1.0@dev",
-		"typo3/cms-sys-note": "^11.1.0@dev",
-		"typo3/cms-t3editor": "^11.1.0@dev",
-		"typo3/cms-tstemplate": "^11.1.0@dev",
-		"typo3/cms-viewpage": "^11.1.0@dev"
+		"helhum/typo3-console": "^6.6.0",
+		"typo3/cms-backend": "~11.3.1",
+		"typo3/cms-belog": "~11.3.1",
+		"typo3/cms-beuser": "~11.3.1",
+		"typo3/cms-core": "~11.3.1",
+		"typo3/cms-dashboard": "~11.3.1",
+		"typo3/cms-extbase": "~11.3.1",
+		"typo3/cms-extensionmanager": "~11.3.1",
+		"typo3/cms-felogin": "~11.3.1",
+		"typo3/cms-filelist": "~11.3.1",
+		"typo3/cms-fluid": "~11.3.1",
+		"typo3/cms-fluid-styled-content": "~11.3.1",
+		"typo3/cms-form": "~11.3.1",
+		"typo3/cms-frontend": "~11.3.1",
+		"typo3/cms-impexp": "~11.3.1",
+		"typo3/cms-info": "~11.3.1",
+		"typo3/cms-install": "~11.3.1",
+		"typo3/cms-recordlist": "~11.3.1",
+		"typo3/cms-rte-ckeditor": "~11.3.1",
+		"typo3/cms-seo": "~11.3.1",
+		"typo3/cms-setup": "~11.3.1",
+		"typo3/cms-sys-note": "~11.3.1",
+		"typo3/cms-t3editor": "~11.3.1",
+		"typo3/cms-tstemplate": "~11.3.1",
+		"typo3/cms-viewpage": "~11.3.1"
+	},
+	"scripts":{
+		"typo3-cms-scripts": [
+			"typo3cms install:generatepackagestates",
+			"typo3cms install:fixfolderstructure"
+		],
+		"post-autoload-dump": [
+			"@typo3-cms-scripts"
+		]
 	}
 }
