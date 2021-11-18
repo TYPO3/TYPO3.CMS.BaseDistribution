@@ -10,6 +10,7 @@
 		"sort-packages": true
 	},
 	"require": {
+		"helhum/typo3-console": "^7.0.4",
 		"typo3/cms-backend": "dev-master",
 		"typo3/cms-belog": "dev-master",
 		"typo3/cms-beuser": "dev-master",
@@ -34,5 +35,13 @@
 		"typo3/cms-t3editor": "dev-master",
 		"typo3/cms-tstemplate": "dev-master",
 		"typo3/cms-viewpage": "dev-master"
+	},
+	"scripts":{
+		"typo3-cms-scripts": [
+			"typo3cms install:fixfolderstructure"
+		],
+		"post-autoload-dump": [
+			"@typo3-cms-scripts"
+		]
 	}
 }
