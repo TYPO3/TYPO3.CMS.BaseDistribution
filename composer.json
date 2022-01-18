@@ -4,6 +4,10 @@
 	"license": "GPL-2.0-or-later",
 	"type": "project",
 	"config": {
+		"allow-plugins": {
+			"typo3/cms-composer-installers": true,
+			"typo3/class-alias-loader": true
+		},
 		"platform": {
 			"php": "7.4.1"
 		},
