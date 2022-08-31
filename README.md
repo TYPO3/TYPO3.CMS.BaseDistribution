@@ -28,7 +28,7 @@ To do this, you need to execute the following command and substitute the argumen
 with your own environment configuration.
 
 ```bash
-composer exec typo3cms install:setup \
+composer exec -- typo3cms install:setup \
     --no-interaction \
     --database-user-name=typo3 \
     --database-user-password=typo3 \
