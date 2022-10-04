@@ -9,12 +9,11 @@
 			"typo3/cms-composer-installers": true
 		},
 		"platform": {
-			"php": "7.4.1"
+			"php": "8.1.1"
 		},
 		"sort-packages": true
 	},
 	"require": {
-		"helhum/typo3-console": "^7.0.4",
 		"typo3/cms-backend": "dev-master",
 		"typo3/cms-belog": "dev-master",
 		"typo3/cms-beuser": "dev-master",
@@ -31,7 +30,6 @@
 		"typo3/cms-impexp": "dev-master",
 		"typo3/cms-info": "dev-master",
 		"typo3/cms-install": "dev-master",
-		"typo3/cms-recordlist": "dev-master",
 		"typo3/cms-rte-ckeditor": "dev-master",
 		"typo3/cms-seo": "dev-master",
 		"typo3/cms-setup": "dev-master",
