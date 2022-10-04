@@ -4,12 +4,12 @@ Get going quickly with TYPO3 CMS.
 
 ## Prerequisites
 
-* PHP 7.4
+* PHP 8.1
 * [Composer](https://getcomposer.org/download/)
 
 ## Quickstart
 
-* `composer create-project typo3/cms-base-distribution project-name ^11`
+* `composer create-project typo3/cms-base-distribution project-name ^12`
 * `cd project-name`
 
 ### Setup
