@@ -18,7 +18,7 @@ To start an interactive installation, you can do so by executing the following
 command and then follow the wizard:
 
 ```bash
-composer exec typo3cms install:setup
+composer exec typo3 setup
 ```
 
 ### Setup unattended (optional)
@@ -28,17 +28,19 @@ To do this, you need to execute the following command and substitute the argumen
 with your own environment configuration.
 
 ```bash
-composer exec typo3cms install:setup \
+composer exec typo3 setup \
     --no-interaction \
-    --database-user-name=typo3 \
-    --database-user-password=typo3 \
-    --database-host-name=127.0.0.1 \
-    --database-port=3306 \
-    --database-name=typo3 \
-    --use-existing-database \
-    --admin-user-name=admin \
-    --admin-password=password \
-    --site-setup-type=site
+    --driver=mysqli \
+    --username=typo3 \
+    --password=typo3 \
+    --host=127.0.0.1 \
+    --port=3306 \
+    --dbname=typo3 \
+    --admin-username=admin \
+    --admin-email="info@typo3.org" \
+    --admin-user-password=password \
+    --project-name="My TYPO3 Project" \
+    --create-site="https://localhost/"
 ```
 
 ### Development server
