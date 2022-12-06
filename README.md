@@ -28,7 +28,7 @@ To do this, you need to execute the following command and substitute the argumen
 with your own environment configuration.
 
 ```bash
-composer exec typo3 setup \
+composer exec -- typo3 setup \
     --no-interaction \
     --driver=mysqli \
     --username=typo3 \
