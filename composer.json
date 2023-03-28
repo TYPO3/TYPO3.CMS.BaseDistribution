@@ -30,12 +30,14 @@
 		"typo3/cms-impexp": "dev-main",
 		"typo3/cms-info": "dev-main",
 		"typo3/cms-install": "dev-main",
+		"typo3/cms-reactions": "dev-main",
 		"typo3/cms-rte-ckeditor": "dev-main",
 		"typo3/cms-seo": "dev-main",
 		"typo3/cms-setup": "dev-main",
 		"typo3/cms-sys-note": "dev-main",
 		"typo3/cms-t3editor": "dev-main",
 		"typo3/cms-tstemplate": "dev-main",
-		"typo3/cms-viewpage": "dev-main"
+		"typo3/cms-viewpage": "dev-main",
+		"typo3/cms-webhooks": "dev-main"
 	}
 }
