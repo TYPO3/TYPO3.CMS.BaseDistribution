@@ -14,6 +14,7 @@
 		"sort-packages": true
 	},
 	"require": {
+		"doctrine/dbal": "4.0.0-RC2@rc",
 		"typo3/cms-backend": "^13.0.0@dev",
 		"typo3/cms-belog": "^13.0.0@dev",
 		"typo3/cms-beuser": "^13.0.0@dev",
