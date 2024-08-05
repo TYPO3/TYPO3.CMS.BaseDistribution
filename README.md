@@ -9,7 +9,7 @@ Get going quickly with TYPO3 CMS.
 
 ## Quickstart
 
-* `composer create-project typo3/cms-base-distribution project-name ^12`
+* `composer create-project typo3/cms-base-distribution project-name ^13`
 * `cd project-name`
 
 ### Setup
