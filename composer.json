@@ -36,7 +36,6 @@
 		"typo3/cms-seo": "^13.1",
 		"typo3/cms-setup": "^13.1",
 		"typo3/cms-sys-note": "^13.1",
-		"typo3/cms-t3editor": "^13.1",
 		"typo3/cms-tstemplate": "^13.1",
 		"typo3/cms-viewpage": "^13.1",
 		"typo3/cms-webhooks": "^13.1"
