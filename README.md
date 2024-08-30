@@ -12,6 +12,10 @@ Get going quickly with TYPO3 CMS.
 * `composer create-project typo3/cms-base-distribution project-name ^13`
 * `cd project-name`
 
+Note that this distribution installs most, but not all of the TYPO3 CMS core extensions.
+Depending on your need you might also want to install other TYPO3 extensions from
+[packagist.org](https://packagist.org/?type=typo3-cms-framework).
+
 ### Setup
 
 To start an interactive installation, you can do so by executing the following
