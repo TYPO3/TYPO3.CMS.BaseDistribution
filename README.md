@@ -28,19 +28,16 @@ To do this, you need to execute the following command and substitute the argumen
 with your own environment configuration.
 
 ```bash
+export TYPO3_SETUP_ADMIN_PASSWORD=$(tr -dc "_A-Za-z0-9#=$()/" < /dev/urandom | head -c24)
 composer exec -- typo3 setup \
     --no-interaction \
-    --driver=mysqli \
-    --username=typo3 \
-    --password=typo3 \
-    --host=127.0.0.1 \
-    --port=3306 \
-    --dbname=typo3 \
+    --server-type=other \
+    --driver=sqlite \
     --admin-username=admin \
-    --admin-email="info@typo3.org" \
-    --admin-user-password=password \
+    --admin-email="info@example.com" \
     --project-name="My TYPO3 Project" \
-    --create-site="https://localhost/"
+    --create-site="http://localhost:8000/"
+echo "Admin password: ${TYPO3_SETUP_ADMIN_PASSWORD}"
 ```
 
 ### Development server
