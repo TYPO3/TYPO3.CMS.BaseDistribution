@@ -1,48 +1,48 @@
 {
-	"name": "typo3/cms-base-distribution",
-	"description" : "TYPO3 CMS Base Distribution",
-	"license": "GPL-2.0-or-later",
-	"type": "project",
-	"config": {
-		"allow-plugins": {
-			"typo3/class-alias-loader": true,
-			"typo3/cms-composer-installers": true
-		},
-		"platform": {
-			"php": "8.2.0"
-		},
-		"sort-packages": true
-	},
-	"require": {
-		"typo3/cms-backend": "dev-main",
-		"typo3/cms-belog": "dev-main",
-		"typo3/cms-beuser": "dev-main",
-		"typo3/cms-core": "dev-main",
-		"typo3/cms-dashboard": "dev-main",
-		"typo3/cms-extbase": "dev-main",
-		"typo3/cms-felogin": "dev-main",
-		"typo3/cms-filelist": "dev-main",
-		"typo3/cms-fluid": "dev-main",
-		"typo3/cms-fluid-styled-content": "dev-main",
-		"typo3/cms-form": "dev-main",
-		"typo3/cms-frontend": "dev-main",
-		"typo3/cms-impexp": "dev-main",
-		"typo3/cms-info": "dev-main",
-		"typo3/cms-install": "dev-main",
-		"typo3/cms-reactions": "dev-main",
-		"typo3/cms-recycler": "dev-main",
-		"typo3/cms-rte-ckeditor": "dev-main",
-		"typo3/cms-seo": "dev-main",
-		"typo3/cms-setup": "dev-main",
-		"typo3/cms-sys-note": "dev-main",
-		"typo3/cms-tstemplate": "dev-main",
-		"typo3/cms-viewpage": "dev-main",
-		"typo3/cms-webhooks": "dev-main"
-	},
-	"repositories": [
-		{
-			"type": "path",
-			"url": "./packages/*"
-		}
-	]
+    "name": "typo3/cms-base-distribution",
+    "description": "TYPO3 CMS Base Distribution",
+    "license": "GPL-2.0-or-later",
+    "type": "project",
+    "config": {
+        "allow-plugins": {
+            "typo3/class-alias-loader": true,
+            "typo3/cms-composer-installers": true
+        },
+        "platform": {
+            "php": "8.2.0"
+        },
+        "sort-packages": true
+    },
+    "require": {
+        "typo3/cms-backend": "dev-main",
+        "typo3/cms-belog": "dev-main",
+        "typo3/cms-beuser": "dev-main",
+        "typo3/cms-core": "dev-main",
+        "typo3/cms-dashboard": "dev-main",
+        "typo3/cms-extbase": "dev-main",
+        "typo3/cms-felogin": "dev-main",
+        "typo3/cms-filelist": "dev-main",
+        "typo3/cms-fluid": "dev-main",
+        "typo3/cms-fluid-styled-content": "dev-main",
+        "typo3/cms-form": "dev-main",
+        "typo3/cms-frontend": "dev-main",
+        "typo3/cms-impexp": "dev-main",
+        "typo3/cms-info": "dev-main",
+        "typo3/cms-install": "dev-main",
+        "typo3/cms-reactions": "dev-main",
+        "typo3/cms-recycler": "dev-main",
+        "typo3/cms-rte-ckeditor": "dev-main",
+        "typo3/cms-seo": "dev-main",
+        "typo3/cms-setup": "dev-main",
+        "typo3/cms-sys-note": "dev-main",
+        "typo3/cms-tstemplate": "dev-main",
+        "typo3/cms-viewpage": "dev-main",
+        "typo3/cms-webhooks": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./packages/*"
+        }
+    ]
 }
