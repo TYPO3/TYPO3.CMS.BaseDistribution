@@ -39,10 +39,10 @@
         "typo3/cms-viewpage": "dev-main",
         "typo3/cms-webhooks": "dev-main"
     },
-    "repositories": [
-        {
+    "repositories": {
+        "packages": {
             "type": "path",
             "url": "./packages/*"
         }
-    ]
+    }
 }
