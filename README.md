@@ -9,7 +9,7 @@ Get going quickly with TYPO3 CMS.
 
 ## Quickstart
 
-* `composer create-project typo3/cms-base-distribution project-name ^13`
+* `composer create-project typo3/cms-base-distribution project-name dev-main`
 * `cd project-name`
 
 Note that this distribution installs most, but not all of the TYPO3 CMS core extensions.
